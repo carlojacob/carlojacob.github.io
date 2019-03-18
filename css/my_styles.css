@@ -1,0 +1,34 @@
+.headline-shadow {
+  text-shadow: 4px 4px 8px #212529;
+}
+
+.my-image {
+  border-radius: 90px;
+  height: 180px;
+  margin-bottom: 40px;
+  width: 180px;
+}
+
+.nav-contact:hover {
+  text-decoration: none;
+}
+
+.tagline-shadow {
+  background-color: rgb(33,37,41, 0.2);
+  box-shadow: 0 0 20px 10px rgb(33,37,41, 0.2);
+}
+
+.text-white-85 {
+  color:rgba(255,255,255,.85)
+}
+
+@media (max-width: 992px) {
+  .nav-contact {
+    color: #212529;
+
+  }
+
+  .nav-contact:hover {
+    color: #428bca;
+  }
+}
