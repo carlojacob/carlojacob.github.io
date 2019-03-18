@@ -13,6 +13,17 @@
   text-decoration: none;
 }
 
+.my-portfolio-caption-border,
+.my-portfolio-img-border {
+  border-radius: 10px;
+}
+
+.my-porfolio-col {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
 .tagline-shadow {
   background-color: rgb(33,37,41, 0.2);
   box-shadow: 0 0 20px 10px rgb(33,37,41, 0.2);
