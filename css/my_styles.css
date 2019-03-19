@@ -1,5 +1,29 @@
+.github-links {
+  display: inline-flex;
+}
+
 .headline-shadow {
   text-shadow: 4px 4px 8px #212529;
+}
+
+.my-camelCase {
+  text-transform: none;
+}
+
+.my-duck-color {
+  color: #ffd45c;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.my-duckCube-img {
+  border-radius: 10px;
+  height: auto;
+  padding-bottom: 20px;
+  width: 400px;
 }
 
 .my-image {
@@ -7,10 +31,6 @@
   height: 180px;
   margin-bottom: 40px;
   width: 180px;
-}
-
-.nav-contact:hover {
-  text-decoration: none;
 }
 
 .my-portfolio-caption-border,
@@ -21,7 +41,21 @@
 .my-porfolio-col {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
+}
+
+.my-portfolio-live-img-tuber-tictac {
+  border: 2px solid #212529;
+  transform: scale(1.05);
+}
+
+.my-portfolio-live-img-nozama-bike {
+  border: 2px solid #c3c9ce;
+  transform: scale(1.05);
+}
+
+.nav-contact:hover {
+  text-decoration: none;
 }
 
 .tagline-shadow {
