@@ -24,6 +24,7 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/agency.min.css" rel="stylesheet">
   <link href="css/creative.min.css" rel="stylesheet">
 
   <!-- User (S)CSS -->
@@ -94,7 +95,28 @@
           <p class="text-white-70 mb-4 text-justify">I am a web developer that just made a career transition from structural engineering. In my last position, I designed bridges—primarily in New England, but some across the United States. Many of my most exciting bridge design experiences involved creating models using proprietary software or visual basic to optimize the designs. These experiences reminded me of my experience in graduate school, where I used software to model the behavior of buildings during earthquakes. As I considered my career change, I reflected on my enjoyment solving problems using code.</p>
 
           <p class="text-white-70 mb-4 text-justify">At the same time, I have been a lifelong leader in athletic endeavors, mostly as a captain of various swim teams from childhood through the collegiate level, then as the Athletic Director of Boston Triathlon Team today. One of my greatest athletic passions has always been understanding training/performance data, and how it translates to athletic improvements. I have always enjoyed “looking at the numbers” with respect to sports that I participate in. The combination of my passions for solving problems with code and analysis during my athletic endeavors makes the role of a software developer in a team environment a natural fit for me.</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#skills">My Skills!</a>
+          <!-- Button trigger duckCube Modal -->
+          <a class="btn btn-light btn-xl js-scroll-trigger" data-toggle="modal" data-target="#duckCubeModalCenter">Meet <span class="my-camelCase my-duck-color">duckCube</span></a>
+          <!-- End Button trigger duckCube Modal -->
+          <!-- duckCube Modal -->
+          <div class="modal fade" id="duckCubeModalCenter" tabindex="-1" role="dialog" aria-labelledby="duckCubeModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="duckCubeModalLongTitle">This is <span class="my-duck-color">duckCube</span></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="my-duckCube-img" src="img/portfolio/fullsize/duckCube.jpg" alt="Image of a rubber duck named duckCube">
+                  <p class="text-justify">Upon the completion of our first project at General Assembly, my cohort was presented with our own rubber ducks. Since then, rubber ducking: explaining the coding process line-by-line to the duck, has been vital to my progress. <span class="my-duck-color">duckCube</span> is a good listener, as I develop my coding abilities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End duckCube Modal -->
+
         </div>
       </div>
     </div>
@@ -214,59 +236,91 @@
 
   <!-- Portfolio Section -->
   <section class="page-section bg-primary" id="portfolio">
-    <div class="container-fluid p-0 portfolio-container">
+    <div class="container-fluid p-0">
       <h2 class="text-center text-white mt-0">Portfolio</h2>
       <hr class="divider light my-4">
       <div class="row my-porfolio-col">
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
           <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/tuberHome.png" alt="Image of Tuber HomePage">
             <div class="portfolio-box-caption my-portfolio-caption-border">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Tuber
-              </div>
+              <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-tuber-tictac" src="img/portfolio/thumbnails/tuberLive.png" alt="Image of Tuber Videos Page">
             </div>
           </a>
         </div>
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
+            <div class="project-category text-white-50">
+              Tuber
+            </div>
+            <div class="project-name">
+              <a class="portfolio-box" href="https://carlojacob.github.io/tuber">Tuber Site</a>
+              <span class="github-links">
+                <i class="d-block fab fa-github fa-lg mr-4 nav-contact"></i>
+                <a class="portfolio-box" href="https://github.com/carlojacob/tuber">Client Repository</a>
+                <a class="portfolio-box" href="https://github.com/carlojacob/tuber-api">API Repository</a>
+              </span>
+              <p>Tuber description<br>
+              <!-- <i class="fa-4x text-primary devicon-github-plain"></i> -->
+              <!-- <a class="d-block fab fa-github fa-lg mr-4 nav-contact" href="https://github.com/carlojacob"></a> -->
+              Remove fullsize link.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 my-porfolio-col">
+          <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
+            <div class="project-category text-white-50">
+              Nozama
+            </div>
+            <div class="project-name">
+              Nozama description<br>
+              Remove fullsize link.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 my-porfolio-col">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/nozamaHome.png" alt="">
             <div class="portfolio-box-caption my-portfolio-caption-border">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Nozama
-              </div>
+              <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-nozama-bike" src="img/portfolio/thumbnails/nozamaLive.png" alt="">
             </div>
           </a>
         </div>
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/3.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/bikeRidrHome.png" alt="">
             <div class="portfolio-box-caption my-portfolio-caption-border">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Bike Ridr
-              </div>
+              <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-nozama-bike" src="img/portfolio/thumbnails/bikeRidrLive.png" alt="">
             </div>
           </a>
         </div>
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/4.jpg" alt="">
+          <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
+            <div class="project-category text-white-50">
+              Bike Ridr
+            </div>
+            <div class="project-name">
+              Bike Ridr description<br>
+              Remove fullsize link.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 my-porfolio-col">
+          <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
+            <div class="project-category text-white-50">
+              Tic-Tac-Toe
+            </div>
+            <div class="project-name">
+              Tic-Tac-Toe description<br>
+              Remove fullsize link.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 my-porfolio-col">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/ticTacToeHome.png" alt="">
             <div class="portfolio-box-caption my-portfolio-caption-border">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Tic-Tac-Toe
-              </div>
+              <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-tuber-tictac" src="img/portfolio/thumbnails/ticTacToeLive.png" alt="">
             </div>
           </a>
         </div>
@@ -277,10 +331,121 @@
   <!-- Experience Section -->
   <section class="page-section bg-dark text-white" id="experience">
     <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+      <h2 class="text-center text-white mt-0">Experience</h2>
+      <hr class="divider light my-4">
+      <!-- <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a> -->
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <!-- <h2 class="section-heading text-uppercase">About</h2> -->
+          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2011-2014</h4>
+                  <h4 class="subheading">Assistant Structural Engineer</h4>
+                  <h5>
+                    <em>TranSystems Corporation</em>
+                  </h5>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2014-2018</h4>
+                  <h4 class="subheading">Structural Engineer</h4>
+                  <h5>
+                    <em>TranSystems Corporation</em>
+                  </h5>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2016-Present</h4>
+                  <h4 class="subheading">Director of Athletics</h4>
+                  <h5>
+                    <em>Boston Triathlon Team</em>
+                  </h5>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2018</h4>
+                  <h4 class="subheading">Structural Project Engineer</h4>
+                  <h5>
+                    <em>TranSystems Corporation</em>
+                  </h5>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2018-Present</h4>
+                  <h4 class="subheading">Web Developer</h4>
+                  <h5>
+                    <em>General Assembly</em>
+                  </h5>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Let Me
+                  <br>Add You To
+                  <br>My Story!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
   </section>
+  <!-- About -->
+  <!-- <section id="about">
+  </section> -->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
