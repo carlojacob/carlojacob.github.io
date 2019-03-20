@@ -20,9 +20,6 @@
   <!-- Devicon Fonts -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="css/creative.min.css" rel="stylesheet">
@@ -99,7 +96,7 @@
           <!-- Button trigger duckCube Modal -->
           <a class="btn btn-light btn-xl js-scroll-trigger" data-toggle="modal" data-target="#duckCubeModalCenter">Meet <span class="my-camelCase my-duck-color">duckCube</span></a>
           <!-- End Button trigger duckCube Modal -->
-          
+
           <!-- duckCube Modal -->
           <div class="modal fade" id="duckCubeModalCenter" tabindex="-1" role="dialog" aria-labelledby="duckCubeModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -111,7 +108,7 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <img class="my-duckCube-img" src="img/portfolio/fullsize/duckCube.jpg" alt="Image of a rubber duck named duckCube">
+                  <img class="my-duckCube-img" src="img/about/fullsize/duckCube.jpg" alt="Image of a rubber duck named duckCube">
                   <p class="text-justify">Upon the completion of our first project at General Assembly, my cohort was presented with our own rubber ducks. Since then, rubber ducking: explaining the coding process line-by-line to the duck, has been vital to my progress. <span class="my-duck-color">duckCube</span> is a good listener, as I develop my coding abilities.</p>
                 </div>
               </div>
@@ -241,9 +238,12 @@
     <div class="container-fluid p-0">
       <h2 class="text-center text-white mt-0">Portfolio</h2>
       <hr class="divider light my-4">
+
+      <!-- Tuber Module -->
       <div class="row my-porfolio-col">
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+          <a class="portfolio-box add-flex"
+            href="https://carlojacob.github.io/tuber/#/" target="_blank">
             <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/tuberHome.png" alt="Image of Tuber HomePage">
             <div class="portfolio-box-caption my-portfolio-caption-border">
               <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-tuber-tictac" src="img/portfolio/thumbnails/tuberLive.png" alt="Image of Tuber Videos Page">
@@ -252,42 +252,85 @@
         </div>
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
           <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
-            <div class="project-category text-white-50">
-              Tuber
+            <div class="project-category">
+              <h5 class="text-white-85">Tuber</h5>
             </div>
             <div class="project-name">
-              <a class="portfolio-box" href="https://carlojacob.github.io/tuber">Tuber Site</a>
-              <span class="github-links">
-                <i class="d-block fab fa-github fa-lg mr-4 nav-contact"></i>
-                <a class="portfolio-box" href="https://github.com/carlojacob/tuber">Client Repository</a>
-                <a class="portfolio-box" href="https://github.com/carlojacob/tuber-api">API Repository</a>
+              <p><b>Noun: Avid YouTube user</b> | <em>NOT</em> a potato</p>
+              <p>Tuber was developed with the avid <em>tuber</em> as the first priority. A <em>tuber</em> can use this application to save information about his/her favorite YouTube videos, all in one easy-to-access and easily manipulated website.</p>
+              <span class="my-portfolio-links text-white-50">
+                visit
+                <a class="portfolio-box text-white-75 ml-5"
+                  href="https://carlojacob.github.io/tuber"
+                  target="_blank">Deployed Site
+                </a>
+              </span><hr>
+              <span class="my-portfolio-links text-white-50">
+                <i class="d-block fab fa-github fa-lg mt-1 mr-2"></i>
+                <span class="mr-3">repos</span>
+                <a class="portfolio-box text-white-75 mr-4"
+                  href="https://github.com/carlojacob/tuber"
+                  target="_blank">Front End
+                </a>
+                <a class="portfolio-box text-white-75"
+                  href="https://github.com/carlojacob/tuber-api"
+                  target="_blank">Back End
+                </a>
               </span>
-              <p>Tuber description<br>
-              Remove fullsize link.</p>
             </div>
           </div>
         </div>
+      </div>
+      <hr class="divider light my-4">
+
+      <!-- Nozama Module -->
+      <div class="row my-porfolio-col">
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
           <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
-            <div class="project-category text-white-50">
-              Nozama
+            <div class="project-category">
+              <h5 class="text-white-85">Nozama</h5>
             </div>
             <div class="project-name">
-              Nozama description<br>
-              Remove fullsize link.
+              <p>Nozama is a mock e-commerce website that focuses on hat sales. A user that is logged in can search for and select hats to add to his/her shopping cart, pay for selected items using the <em>Stripe</em> third party payment portal, and view the history of all previous orders.</p>
+              <span class="my-portfolio-links text-white-50">
+                visit
+                <a class="portfolio-box text-white-75 ml-5"
+                  href="https://moctodnozama.github.io/moctodnozama/"
+                  target="_blank">Deployed Site
+                </a>
+              </span><hr>
+              <span class="my-portfolio-links text-white-50">
+                <i class="d-block fab fa-github fa-lg mt-1 mr-2"></i>
+                <span class="mr-3">repos</span>
+                <a class="portfolio-box text-white-75 mr-4"
+                  href="https://github.com/moCtoDnozamA/moctodnozama"
+                  target="_blank">Front End
+                </a>
+                <a class="portfolio-box text-white-75"
+                  href="https://github.com/moCtoDnozamA/moCtoDnozamA.github.io-api"
+                  target="_blank">Back End
+                </a>
+              </span>
             </div>
           </div>
         </div>
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+          <a class="portfolio-box add-flex"
+            href="https://moctodnozama.github.io/moctodnozama/"
+            target="_blank">
             <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/nozamaHome.png" alt="">
             <div class="portfolio-box-caption my-portfolio-caption-border">
               <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-nozama-bike" src="img/portfolio/thumbnails/nozamaLive.png" alt="">
             </div>
           </a>
         </div>
+      </div>
+      <hr class="divider light my-4">
+
+      <!-- Bike Ridr Module -->
+      <div class="row my-porfolio-col">
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+          <a class="portfolio-box add-flex" href="https://carlojacob.github.io/bike-ridr-client/" target="_blank">
             <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/bikeRidrHome.png" alt="">
             <div class="portfolio-box-caption my-portfolio-caption-border">
               <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-nozama-bike" src="img/portfolio/thumbnails/bikeRidrLive.png" alt="">
@@ -296,28 +339,48 @@
         </div>
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
           <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
-            <div class="project-category text-white-50">
-              Bike Ridr
+            <div class="project-category">
+              <h5 class="text-white-85">Bike Ridr</h5>
             </div>
             <div class="project-name">
-              Bike Ridr description<br>
-              Remove fullsize link.
+              <p>Bike Ridr is an application that can be used by cyclists to log the date, location, distance and time data from their bike rides; then review, edit or delete previous ride data. The user creates a unique, password-protected account; then the user enters new ride data on a form that is provided and/or views all of their existing rides, if any exist.</p>
+              <span class="my-portfolio-links text-white-50">
+                visit<a class="portfolio-box text-white-75 ml-5" href="https://carlojacob.github.io/bike-ridr-client/" target="_blank">Deployed Site</a>
+              </span><hr>
+              <span class="my-portfolio-links text-white-50">
+                <i class="d-block fab fa-github fa-lg mt-1 mr-2"></i>
+                <span class="mr-3">repos</span>
+                <a class="portfolio-box text-white-75 mr-4" href="https://github.com/carlojacob/bike-ridr-client" target="_blank">Front End</a>
+                <a class="portfolio-box text-white-75" href="https://github.com/carlojacob/bike-ridr-api" target="_blank">Back End</a>
+              </span>
             </div>
           </div>
         </div>
+      </div>
+      <hr class="divider light my-4">
+
+      <!-- Tic-Tac-Toe Module -->
+      <div class="row my-porfolio-col">
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
           <div class="portfolio-box-caption portfolio-box my-portfolio-caption-border">
-            <div class="project-category text-white-50">
-              Tic-Tac-Toe
+            <div class="project-category">
+              <h5 class="text-white-85">Tic-Tac-Toe</h5>
             </div>
             <div class="project-name">
-              Tic-Tac-Toe description<br>
-              Remove fullsize link.
+              <p>This Tic-Tac-Toe game was my first deployed website. The front-end application refers to a provided API for user authentication and game storage. Code was primarily written using HTML, SCSS (CSS) and JavaScript/jQuery. This was my first extensive experience using Git and GitHub for version control.</p>
+              <span class="my-portfolio-links text-white-50">
+                visit<a class="portfolio-box text-white-75 ml-5" href="https://carlojacob.github.io/game-project-client/" target="_blank">Deployed Site</a>
+              </span><hr>
+              <span class="my-portfolio-links text-white-50">
+                <i class="d-block fab fa-github fa-lg mt-1 mr-2"></i>
+                <span class="mr-3">repo</span>
+                <a class="portfolio-box text-white-75 mr-4" href="https://github.com/carlojacob/game-project-client/" target="_blank">Front End (only)</a>
+              </span>
             </div>
           </div>
         </div>
         <div class="col-lg-6 col-sm-12 my-porfolio-col">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+          <a class="portfolio-box add-flex" href="https://carlojacob.github.io/game-project-client/" target="_blank">
             <img class="img-fluid my-portfolio-img-border" src="img/portfolio/thumbnails/ticTacToeHome.png" alt="">
             <div class="portfolio-box-caption my-portfolio-caption-border">
               <img class="img-fluid my-portfolio-img-border my-portfolio-live-img-tuber-tictac" src="img/portfolio/thumbnails/ticTacToeLive.png" alt="">
@@ -489,10 +552,9 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+  <script src="js/creative.js"></script>
 
 </body>
 
