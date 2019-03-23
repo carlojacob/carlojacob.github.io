@@ -67,6 +67,16 @@
   color: #428bca !important;
 }
 
+.my-timeline-text {
+  font-size: .9rem;
+  text-align: justify;
+  text-align-last: right;
+}
+
+.timeline-inverted .my-timeline-text {
+  text-align-last: left;
+}
+
 .nav-contact:hover {
   text-decoration: none;
 }
