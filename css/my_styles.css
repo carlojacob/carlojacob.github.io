@@ -104,3 +104,9 @@
     color: #428bca;
   }
 }
+
+@media (max-width: 767px) {
+  .my-timeline-text {
+    text-align-last: left;
+  }
+}
