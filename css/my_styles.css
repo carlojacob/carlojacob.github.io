@@ -53,12 +53,12 @@
   display: inline-flex;
 }
 
-.my-portfolio-live-img-tuber-tictac {
+.my-portfolio-live-img-dark {
   border: 2px solid #212529;
   transform: scale(1.05);
 }
 
-.my-portfolio-live-img-nozama-bike {
+.my-portfolio-live-img-light {
   border: 2px solid #c3c9ce;
   transform: scale(1.05);
 }
