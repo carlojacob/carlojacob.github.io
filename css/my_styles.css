@@ -22,8 +22,8 @@
 .my-duckCube-img {
   border-radius: 10px;
   height: auto;
-  padding-bottom: 20px;
-  width: 400px;
+  margin-bottom: 20px;
+  width: 80%;
 }
 
 .my-image {
